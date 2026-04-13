@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #f4f4f4;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        background: #555;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: yellow;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .intro {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .columns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .box {
+        flex: 1 1 30%;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .box h3 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .cta {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .cta button {
+        padding: 12px 20px;
+        background: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .cta button:hover {
+        background: #555;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background: #333;
+        color: white;
+        margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .columns {
+            flex-direction: column;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Jyothish Landing Page</h1>
+    <p>Learn HTML & CSS by Building Projects</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="intro">
+        <h2>Welcome to Jyothish Landing Page</h2>
+        <p>
+            A landing page is an ideal web development project for beginners. 
+            It helps you learn how to create sections, arrange elements, and 
+            design visually appealing layouts using HTML and CSS.
+        </p>
+    </div>
+
+    <div class="columns">
+        <div class="box">
+            <h3>Easy to Learn</h3>
+            <p>Understand the basics of HTML structure and CSS styling easily.</p>
+        </div>
+
+        <div class="box">
+            <h3>Creative Design</h3>
+            <p>Experiment with layouts, colors, spacing, and alignment.</p>
+        </div>
+
+        <div class="box">
+            <h3>Responsive Layout</h3>
+            <p>Make your website look good on mobile, tablet, and desktop.</p>
+        </div>
+    </div>
+
+    <div class="cta">
+        <button>Get Started</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 My Landing Page | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
